@@ -1,5 +1,7 @@
 #include "Movie.h" 
+Movie::Movie() {
 
+}
 Movie::Movie(std::string _name, int _year, int _duration, std::string _country, std::string _review) {
 	name = _name;
 	year = _year;

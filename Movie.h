@@ -1,4 +1,6 @@
 #pragma once
+#ifndef MOVIE_H
+#define MOVIE_H
 #include <iostream>
 
 class Movie {
@@ -9,6 +11,7 @@ private:
 	std::string country;
 	std::string review;
 public:
+	Movie();
 	Movie(std::string, int, int, std::string, std::string);
 	~Movie();
 	void setName(std::string);
@@ -22,3 +25,4 @@ public:
 	void setReview(std::string);
 	std::string getReview();
 };
+#endif MOVIE_H

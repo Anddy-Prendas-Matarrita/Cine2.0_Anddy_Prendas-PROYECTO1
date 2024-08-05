@@ -129,9 +129,13 @@
   <ItemGroup>
     <ClCompile Include="Cine2.0_Anddy_Prendas1.cpp" />
     <ClCompile Include="Movie.cpp" />
+    <ClCompile Include="Room.cpp" />
+    <ClCompile Include="Schedule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Movie.h" />
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="Schedule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
